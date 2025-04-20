@@ -1,5 +1,6 @@
 # Caesar Cipher
 
+
 **What was done:**
 
 File encryption and decryption using Caesar Cipher.
@@ -8,6 +9,7 @@ Console input support for encryption and decryption.
 
 Output files are generated with correct suffixes [ENCRYPTED] and [DECRYPTED].
 
+
 **What was not implemented:**
 
 Brute-force decryption mode was not implemented.
@@ -15,6 +17,7 @@ Brute-force decryption mode was not implemented.
 Ukrainian alphabet.
 
 Front-end. GUI (Swing, JavaFX) 
+
 
 **Class descriptions:**
 
@@ -35,6 +38,8 @@ CaesarCipher — contains the logic for Caesar Cipher encryption.
 FileService — reads and writes files, generates output file names with correct suffixes.
 
 ConsoleReader — reads from the console.
+
+**Commands:** 
 
 *java -jar Caesar.jar ENCRYPT /path/to/file.txt 5*
 
